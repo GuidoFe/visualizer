@@ -5,8 +5,9 @@ Transforms cava music visualizer in a cool desktop decoration.
 Author: GuidoFe
 
 # Usage:
-
-To start, execute this script. To stop, execute this script again.
+ First of all, set the parameters at the beginning of the file and save the changes. 
+ 
+ To start the visualizer, execute this script. To stop it, execute this script again.
 
 # Dependencies (and credits): 
 - [xdotool](https://github.com/jordansissel/xdotool)
