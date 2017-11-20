@@ -4,6 +4,8 @@ Transforms cava music visualizer in a cool desktop decoration.
 
 Author: GuidoFe
 
+![Screenshot](https://i.imgur.com/00M3lBQ.png)
+
 # Usage:
  First of all, set the parameters at the beginning of the file and save the changes. 
  
