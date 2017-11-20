@@ -1,6 +1,6 @@
 # Visualizer
 
-Transforms cava music visualizer in a cool desktop decoration.
+Transforms cava music visualizer in a cool animated desktop decoration.
 
 Author: GuidoFe
 
