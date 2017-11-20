@@ -1,4 +1,7 @@
 # Visualizer
+
+Transforms cava music visualizer in a cool desktop decoration.
+
 Author: GuidoFe
 
 # Usage:
