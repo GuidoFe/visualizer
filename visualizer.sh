@@ -174,7 +174,7 @@ elif [ "$1" = 'start' ]; then
 			# Reset cava position
 			cursorExited=1
 			Yd=$Yscreen
-			Ydefault=`expr $Yscreen - $h + $offset + 1`
+			Ydefault=`expr $Yscreen - $h + $offset`
 			while [ $Yd -gt $Ydefault ]; do
 				Yd=`expr $Yd - $trPixel`
 				sleep $trTime
