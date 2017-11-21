@@ -11,6 +11,8 @@ Author: GuidoFe
  
  To start the visualizer, execute this script. To stop it, execute this script again.
 
+ *NOTE:* You will probably need a compositor for your desktop (like Compton) to be able to use transparent colors with urxvt.
+
 # Dependencies (and credits): 
 - [xdotool](https://github.com/jordansissel/xdotool)
 - [cava](https://github.com/karlstav/cava)
