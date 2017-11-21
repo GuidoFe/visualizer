@@ -63,7 +63,7 @@ cavaConf=''
 # For outCol you can also use normal color definitions, like '#223454'.
 # As usual, leave both blank ('') if you don't want to set them.
 inCol='5'
-outCol='[50]#fd971f'
+outCol='[80]#fd971f'
 
 # Set after how much time this program will check your mouse coordinates, in seconds. Higher the value, slower
 # the response, but less cpu usage
@@ -136,7 +136,7 @@ elif [ "$1" = 'start' ]; then
 	    )
 	)' > /tmp/cava.ds
 	#Start urxvt and execute cava in it. Change the color white to the one chosen
-	urxvt -bg "[0]red"$inCol$outCol -b 10 -depth 32 -sb -e cava$cavaConf &
+	urxvt -bg "[0]red"$inCol$outCol -b 10 -depth 32 +sb -e cava$cavaConf &
 	wPid=$!
 	echo $wPid >> /tmp/processesToKill
 	# Starts devilspie, that will move and resize the window
