@@ -25,3 +25,7 @@ This script starts the cava music visualizer on a transparent backround through 
 ('cause it's easy to customize and supports transparent foreground and background). It
 then uses devilspie to strip it of his window decorations and rules, move it to the 
 right place and resize it.
+
+# Note:
+
+Before report an issue, check if the problem is only correlated to cava.
