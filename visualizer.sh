@@ -136,7 +136,7 @@ elif [ "$1" = 'start' ]; then
 	    )
 	)' > /tmp/cava.ds
 	#Start urxvt and execute cava in it. Change the color white to the one chosen
-	urxvt -bg "[0]red"$inCol$outCol -b 10 -depth 32 +sb -e cava$cavaConf &
+	urxvt -bg "[0]red"$inCol$outCol -b 0 -depth 32 +sb -e cava$cavaConf &
 	wPid=$!
 	echo $wPid >> /tmp/processesToKill
 	# Starts devilspie, that will move and resize the window
